@@ -1,0 +1,125 @@
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media all and (min-width: 1281px) {
+
+  .container {
+    background: black;
+    display: flex;
+   flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 4px solid white;
+    flex-wrap: wrap;
+  }
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media all and (min-width: 1025px) and (max-width: 1280px) {
+
+  .container {
+    background: black;
+    display: flex;
+   flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 4px solid white;
+    flex-wrap: wrap;
+  }
+
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+
+  .container {
+    background: black;
+    display: flex;
+   flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 4px solid white;
+    flex-wrap: wrap;
+  }
+
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media all and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+  .container {
+    background: black;
+    display: flex;
+   flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 4px solid white;
+    flex-wrap: wrap;
+  }
+
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media all and (min-width: 481px) and (max-width: 767px) {
+
+  /* First Nav */
+  .container {
+    background: black;
+    display: flex;
+   flex-direction: column;
+    justify-content: space-around;
+    border-bottom: 4px solid white;
+    flex-wrap: wrap;
+  }
+
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+
+
+
+.item {
+background: black;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-style: solid;
+  font-size: 20px;
+}
+
+
+/* 2nd Nav */
+.container2 {
+    flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+  display: flex;
+}
+
+.item2 {
+
+  color: white;
+  font-size: 30px;
+}
