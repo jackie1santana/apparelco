@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!--
+<style>
+	.clock {
+		position: absolute;
+		top:50%;
+		left: 50%;
+		transform: translateX(-50%) translateY(-1030%);
+		color: red;
+		font-size: 25px;
+
+/*
+		border: 1px solid #ccc;
+		padding: 0px 5px 0px 5px;
+*/
+	}
+	</style>
+-->
+
+	<style>
+		body {
+			text-align: center;
+			background: #00ECB9;
+			font-family: sans-serif;
+			font-weight: 100;
+		}
+
+		h1 {
+			/*
+  color: #396;
+	*/
+			color: red;
+			font-weight: 300;
+			font-size: 40px;
+			margin: 40px 0px 20px;
+		}
+
+		#clockdiv {
+			font-family: sans-serif;
+			color: white;
+			display: inline-block;
+			font-weight: 100;
+			text-align: center;
+			font-size: 30px;
+		}
+
+		#clockdiv>div {
+			padding: 10px;
+			border-radius: 3px;
+			/*
+	background: #00BF96;
+	*/
+			display: inline-block;
+
+		}
+
+		#clockdiv div>span {
+			padding: 15px;
+			border-radius: 8%;
+			/*
+	background: #00816A;
+	*/
+			background: black;
+			display: inline-block;
+		}
+
+		.smalltext {
+			padding-top: 5px;
+			font-size: 16px;
+		}
+	</style>
+
+	<title>Apparel & Co.</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<link rel="stylesheet" type="text/css" href="Css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="Css/flexbox.css">
+	<link rel="stylesheet" type="text/css" href="Css/style.css">
+
+	<!-- <style>
+table {
+	width: 100%;
+	table-layout: fixed;
+}
+table, tr, td{
+
+
+	text-align: center;
+
+
+}
+td {
+	padding: 15px;
+	border-right: 1px solid white;
+}
+
+
+</style>
+-->
+	<div class="container">
+
+			<div  class="item-1 item"><a href="index.html">Home</a></div >
+			<div class="item-2  item"><a href="about.html">About</a></div >
+			<div class="item-3  item"><a href="contact.html">Contact</a></div>
+			<div class="item-4  item"><a href="login.html">Log In</a></div >
+			<div class="item-5  item"><a href="sign.html">Sign Up</a></div>
+  </div>
+
+
+
+
+	<div  class="container2">
+
+			<div class="item-1  item2"><a href="men">Men</a></div >
+			<div class="item-2  item2"><a href="women">Women</a></div >
+			<div  class="item-3 item2"><a href="kids">Kids</a></div>
+
+ </div>
+
+</head>
+
+
+<header id="top">
+
+	<body id="body">
+		<!--	<div id="MyClockDisplay" class="clock"></div> -->
+		<h1>Until Next Black Friday Sale (60% Off!)</h1>
+		<div id="clockdiv">
+			<div>
+				<span class="days"></span>
+				<div class="smalltext">Days</div>
+			</div>
+			<div>
+				<span class="hours"></span>
+				<div class="smalltext">Hours</div>
+			</div>
+			<div>
+				<span class="minutes"></span>
+				<div class="smalltext">Minutes</div>
+			</div>
+			<div>
+				<span class="seconds"></span>
+				<div class="smalltext">Seconds</div>
+			</div>
+		</div>
+
+
+		<script type="text/javascript">
+			function getTimeRemaining(endtime) {
+				var t = Date.parse(endtime) - Date.parse(new Date());
+				var seconds = Math.floor((t / 1000) % 60);
+				var minutes = Math.floor((t / 1000 / 60) % 60);
+				var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+				var days = Math.floor(t / (1000 * 60 * 60 * 24));
+				return {
+					'total': t,
+					'days': days,
+					'hours': hours,
+					'minutes': minutes,
+					'seconds': seconds
+				};
+			}
+
+			function initializeClock(id, endtime) {
+				var clock = document.getElementById(id);
+				var daysSpan = clock.querySelector('.days');
+				var hoursSpan = clock.querySelector('.hours');
+				var minutesSpan = clock.querySelector('.minutes');
+				var secondsSpan = clock.querySelector('.seconds');
+
+				function updateClock() {
+					var t = getTimeRemaining(endtime);
+
+					daysSpan.innerHTML = t.days;
+					hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+					minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+					secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+
+					if (t.total <= 0) {
+						clearInterval(timeinterval);
+					}
+				}
+
+				updateClock();
+				var timeinterval = setInterval(updateClock, 1000);
+			}
+
+			var deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000);
+			initializeClock('clockdiv', deadline);
+		</script>
+
+
+
+
+
+
+
+
+
+		<!-- Nav Menu Bar -->
+
+
+		<!-- Heading-->
+		<h1 class="heading">
+		Apparel & Co.
+		</h1>
+		<!-- 2nd Nav Menu Bar -->
+
+
+</header>
+
+
+<!-- Paragraph -->
+<section>
+<div class="column">
+
+		<img src="IMG/attractive-beautiful-diversity-247204.jpg" class="women1"><br>
+
+
+		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+			ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+			anim id est laborum. Lorem ipsum dolor sit amet, <a href="http://google.com" target="_blank">Google</a> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+		aliquip
+		ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</p>
+	</div>
+</section>
+<hr>
+<div class="column2">
+	<p>
+
+		<img src="IMG/beautiful-beauty-fashion-160590.jpg" class="women2"><br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+			ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+			anim id est laborum. Lorem ipsum dolor sit amet, <a href="http://google.com" target="_blank">Google</a> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+		aliquip
+		ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</p>
+
+
+
+
+
+<!--Bottom of the Page-->
+<footer id="footer">
+
+
+	<div class="copyright">
+		&copy; Damani Makonnen
+	</div>
+	<!--	<p class="copyright">&copy;  All Rights Reserved to Damani Makonnen</p>
+	-->
+
+
+
+</footer>
+
+
+
+
+<script src="JS/dom.js"></script>
+
+</body>
+
+</html>
