@@ -1,0 +1,463 @@
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+@media all and (min-width: 1281px) {
+  .abouth1 {
+    font-size: 20px;
+  }
+
+  a:hover {
+    color: orange;
+  }
+  #body {
+
+    font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-image: url('../IMG/basket-cap-coat-718976.jpg');
+    /*
+    margin-bottom: 600px;
+    height: 100%;
+    */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+
+  }
+
+  /* all anchors */
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  /* Header title */
+  .heading {
+    text-align: center;
+    font-size: 5.625rem;
+    /* 90px/16px  */
+    color: cyan;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: auto;
+    height: 150px;
+    text-shadow: 20px 8px 10px #222;
+    border-radius: 0px;
+    background-color: #000;
+  }
+
+  .women1 {
+    box-shadow: 10px 20px 50px 20px cyan;
+
+    width: 1200px;
+    border-radius: none;
+    margin:0;
+  }
+
+  .women2 {
+    box-shadow: 10px 20px 50px 20px cyan;
+
+    width: 950px;
+    margin:0;
+  }
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+@media all and (min-width: 1025px) and (max-width: 1280px) {
+  .abouth1 {
+    font-size: 20px;
+  }
+
+  a:hover {
+    color: orange;
+  }
+  #body {
+
+    font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-image: url('../IMG/basket-cap-coat-718976.jpg');
+    /*
+    margin-bottom: 600px;
+    height: 100%;
+    */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+  }
+
+  /* all anchors */
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  /* Header title */
+  .heading {
+    text-align: center;
+    font-size: 5.625rem;
+    /* 90px/16px  */
+    color: cyan;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: auto;
+    height: 150px;
+    text-shadow: 20px 8px 10px #222;
+    border-radius: 0px;
+    background-color: #000;
+  }
+
+  .women1 {
+    box-shadow: 10px 20px 50px 20px cyan;
+
+    width: 850px;
+    border-radius: none;
+    margin:0;
+  }
+
+  .women2 {
+    box-shadow: 10px 20px 50px 20px cyan;
+
+    width: 760px;
+    margin:0;
+  }
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media all and  (min-width: 768px) and (max-width: 1024px) {
+
+  .abouth1 {
+    font-size: 20px;
+  }
+
+  a:hover {
+    color: orange;
+  }
+
+  #body {
+
+    font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-image: url('../IMG/basket-cap-coat-718976.jpg');
+    /*
+    margin-bottom: 600px;
+    height: 100%;
+    */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+  }
+
+  /* all anchors */
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  /* Header title */
+  .heading {
+    text-align: center;
+    font-size: 5.625rem;
+    /* 90px/16px  */
+    color: cyan;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: auto;
+    height: 150px;
+    text-shadow: 20px 8px 10px #222;
+    border-radius: 0px;
+    background-color: #000;
+  }
+
+  .women1 {
+    box-shadow: 10px 20px 50px 20px cyan;
+
+    width: 650px;
+    border-radius: none;
+    margin:0;
+  }
+
+  .women2 {
+    box-shadow: 10px 20px 50px 20px cyan;
+
+    width: 550px;
+    margin:0;
+  }
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+@media all and  (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .abouth1 {
+    font-size: 20px;
+  }
+
+  a:hover {
+    color: orange;
+  }
+  #body {
+
+    font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-image: url('../IMG/basket-cap-coat-718976.jpg');
+    /*
+    margin-bottom: 600px;
+    height: 100%;
+    */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+  }
+
+  /* all anchors */
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  /* Header title */
+  .heading {
+    text-align: center;
+    font-size: 5.625rem;
+    /* 90px/16px  */
+    color: cyan;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: auto;
+    height: 150px;
+    text-shadow: 20px 8px 10px #222;
+    border-radius: 0px;
+    background-color: #000;
+  }
+
+  .women1 {
+    box-shadow: 10px 20px 50px 20px cyan;
+
+    width: 700px;
+    border-radius: none;
+    margin:0;
+  }
+
+  .women2 {
+    box-shadow: 10px 20px 50px 20px cyan;
+
+    width: 550px;
+    margin:0;
+  }
+}
+
+/* MOBILE
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media all and  (min-width: 481px) and (max-width: 767px) {
+  .abouth1 {
+    font-size: 20px;
+  }
+
+  a:hover {
+    color: orange;
+  }
+  #body {
+
+    font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-image: url('../IMG/basket-cap-coat-718976.jpg');
+    /*
+    margin-bottom: 600px;
+    height: 100%;
+    */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+  }
+
+  /* all anchors */
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .heading {
+    text-align: center;
+    font-size: 50px;
+    /* 90px/16px  */
+    color: cyan;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: auto;
+    height: 100px;
+    text-shadow: 20px 8px 10px #222;
+    border-radius: 0px;
+    background-color: #000;
+  }
+
+  .women1 {
+    box-shadow: 10px 20px 50px 20px cyan;
+
+    width: 750px;
+    border-radius: none;
+    margin:0;
+  }
+
+  .women2 {
+    box-shadow: 10px 20px 50px 20px cyan;
+
+    width: 750px;
+    margin:0;
+  }
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media all and  (min-width: 320px) and (max-width: 480px) {
+  .abouth1 {
+    font-size: 20px;
+  }
+
+  a:hover {
+    color: orange;
+  }
+  #body {
+
+    font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-image: url('../IMG/basket-cap-coat-718976.jpg');
+    /*
+    margin-bottom: 600px;
+    height: 100%;
+    */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+  }
+
+  /* all anchors */
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .heading {
+    text-align: center;
+    font-size: 50px;
+    ;
+    /* 90px/16px  */
+    color: cyan;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: auto;
+    height: 100px;
+    text-shadow: 20px 8px 10px #222;
+    border-radius: 0px;
+    background-color: #000;
+  }
+
+  .women1 {
+    box-shadow: 10px 20px 50px 20px cyan;
+
+    width: 450px;
+    border-radius: none;
+    margin:0;
+  }
+
+  .women2 {
+    box-shadow: 10px 20px 50px 20px cyan;
+
+    width: 400px;
+    margin:0;
+  }
+}
+
+/* Footer */
+#footer {
+  padding: 4em 0 2em 0;
+  background: black;
+}
+
+/* CopyRight */
+#footer .copyright {
+  color: #bfbfbf;
+  font-size: 15px;
+  margin: 0 0 2em 0;
+  padding: 0 1em;
+  text-align: center;
+}
+
+/* Pictures on Main Page */
+
+
+/* Sign up Page */
+.bodysign {
+  background-image: url('../IMG/clothes.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Sign up Page */
+#registration {
+  width: 100%;
+  background-color: #262626;
+  opacity: 0.8;
+  padding: 50px 0px;
+}
+
+/* Sign up Page */
+.simple-form {
+  text-align: center;
+  margin: 100px 400px;
+}
+
+/* Reigister sign up place holders */
+#button {
+  width: 250px;
+  padding: 10px;
+  border-radius: 5px;
+  outline: 0px;
+}
+
+/* Reigister sign up place holders (submit buton) */
+#submitButton {
+  width: 250px;
+  padding: 10px;
+  border-radius: 5px;
+  outline: 0px;
+  font-size: 20px;
+  color: green;
+}
+
+#ph {
+  width: 55px;
+  padding: 0px;
+  border: 2px solid grey;
+  border-radius: 5px;
+  height: 40px;
+}
+
+#phone {
+  outline: 0px;
+  width: 192px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Log in placeholders */
+#but {
+  font-size: 16px;
+  color: darkgrey;
+}
+
+#success {
+  text-align: center;
+  color: black;
+}
