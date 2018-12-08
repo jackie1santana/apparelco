@@ -410,12 +410,16 @@
   background-color: #262626;
   opacity: 0.8;
   padding: 50px 0px;
+max-width:500px;
+margin: auto;
 }
 
 /* Sign up Page */
-.simple-form {
-  text-align: center;
-  margin: 100px 400px;
+div[class="simple-form"] {
+ text-align: center;
+
+
+
 }
 
 /* Reigister sign up place holders */
@@ -424,6 +428,7 @@
   padding: 10px;
   border-radius: 5px;
   outline: 0px;
+
 }
 
 /* Reigister sign up place holders (submit buton) */
@@ -433,7 +438,8 @@
   border-radius: 5px;
   outline: 0px;
   font-size: 20px;
-  color: green;
+  color: grey;
+  cursor: pointer;
 }
 
 #ph {
@@ -460,4 +466,12 @@
 #success {
   text-align: center;
   color: black;
+  cursor: pointer;
+}
+
+/*log in anchros*/
+[class="forgot"] {
+  text-decoration: none;
+  color: cyan;
+  border-bottom: 1px dotted;
 }
